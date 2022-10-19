@@ -3,7 +3,8 @@ b = [1, 2, 3, 4, 5]
 k = 30
 
 # Considering two arrays where arr2 is the reverse of arr1
-# calc the ordered pairs sum less than K 
+# calc the ordered pairs sum less than K
+
 
 def solution(a, b, k):
     (x, y) = 0, 0
@@ -17,5 +18,5 @@ def solution(a, b, k):
 
     return res
 
-print(solution(a, b, k))
 
+print(solution(a, b, k))

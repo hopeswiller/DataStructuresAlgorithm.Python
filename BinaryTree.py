@@ -8,6 +8,7 @@
 
 from __future__ import annotations
 
+
 class Node:
     def __init__(self, key, left=None, right=None):
         self.key = key
@@ -17,10 +18,7 @@ class Node:
 
 class BinaryTree:
 
-    (
-        preorder,
-        postorder, inorder, levelorder
-    ) = [], [], [], []
+    (preorder, postorder, inorder, levelorder) = [], [], [], []
 
     def __init__(self, root: Node):
         self.root = root
